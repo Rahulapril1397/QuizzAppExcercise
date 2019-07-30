@@ -1,0 +1,12 @@
+Questions	Answers
+What is data structure?	A data structure is a way of organizing data that considers not only the items stored, but also their relationship to each other. Advance knowledge about the relationship between data items allows designing of efficient algorithms for the manipulation of data.
+List out the areas in which data structures are applied extensively?	Compiler Design, Operating System, Database Management System, Statistical analysis package, Artificial Intelligence,
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.	RDBMS = Array (i.e. Array of structures), Network data model = Graph, Hierarchical data model = Trees
+If you are using C language to implement the heterogeneous linked list, what pointer type will you use?	The heterogeneous linked list contains different data types in its nodes and we need a link, pointer to connect them. It is not possible to use ordinary pointers for this. So we go for void pointer. Void pointer is capable of storing pointer to any type as it is a generic pointer type.
+Minimum number of queues needed to implement the priority queue?	Two. One queue is used for actual storing of data and another for storing priorities.
+What is the data structures used to perform recursion?	Stack. Because of its LIFO (Last In First Out) property it remembers its 'caller' so knows whom to return when the function has to return. Recursion makes use of system stack for storing the return addresses of the function calls.
+What are the notations used in Evaluation of Arithmetic Expressions using prefix and postfix forms?	Polish and Reverse Polish notations.
+Convert the expression ((A + B) * C - (D - E) ^ (F + G)) to equivalent Prefix and Postfix notations.	"Prefix Notation: - * +ABC ^ - DE + FG
+Postfix Notation: AB + C * DE - FG + ^ -"
+Sorting is not possible by using which of the following methods? (Insertion, Selection, Exchange, Deletion)	Sorting is not possible in Deletion. Using insertion we can perform insertion sort, using selection we can perform selection sort, using exchange we can perform the bubble sort (and other similar sorting methods). But no sorting method can be done just using deletion.
+What are the methods available in storing sequential files ?	Straight merging, Natural merging, Polyphase sort, Distribution of Initial runs.
